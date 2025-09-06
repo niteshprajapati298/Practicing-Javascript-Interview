@@ -9,6 +9,19 @@ console.log(typeof ans);
 // })
 // magicFn();
 
+const YT = "FrontendMaster";
+const IG = "ALLahabadi.dev";
+const result = IG && YT;
+console.log(result);  
+ 
+// note -> && by default does not convert resultto boolean
+// && checks values from left right
+// && checks values form left to right
+
+const obj = {a:'JS'};
+const {a,a:b,b:c} = obj;
+// add a comment
+
 
 
 
