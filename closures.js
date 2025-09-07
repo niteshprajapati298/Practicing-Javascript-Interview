@@ -10,13 +10,13 @@ const user = {
 // console.log(user.adress?.city); // It will not give error it will give undefined bcoz there is no address in user object
 // --> execution flow -> the code will check if user ke andar adress exists karta hai to city ko check karo warna mat kro that is optional chaining prevent from errors
 
-const arr = [];
-arr.push(1);
-arr.push("2");
-const arr2 = arr.forEach(el => {
-    el = el+2;
-});
-console.log(arr2);
+// const arr = [];
+// arr.push(1);
+// arr.push("2");
+// const arr2 = arr.forEach(el => {
+//     el = el+2;
+// });
+// console.log(arr2);
 
 
 // A closure is a function that remembers the variables from its outer scope even after the outer function has finished executing.
@@ -33,10 +33,8 @@ function outer() {
 }
 
 const fn = outer(); 
-fn(); // 1
-fn(); // 2
-fn(); // 3
+fn(); 
+fn(); 
+fn(); 
 
-let ans = parent();
-console.log(ans);
 
