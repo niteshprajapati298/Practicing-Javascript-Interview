@@ -32,6 +32,11 @@ function outer() {
   return inner;
 }
 
+// Here what we are doing is that we have taken two function outer and inner and in the outer function we have initialized a varialbe counter with value 0 a
+// and then we have taken a function inner where we are incrementing the count value with  and logging the value and in the next line we are returning the innerfunction to outer function
+// and after next line we are calling the function and storing it in variable after outer function is closed the outer function is destroyed the but the inner function still have the access of variables of outer function
+
+
 const fn = outer(); 
 fn(); 
 fn(); 
