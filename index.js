@@ -19,7 +19,8 @@ console.log(result);
 // && checks values form left to right
 
 const obj = {a:'JS'};
-const {a,a:b,b:c} = obj;
+const {a,a:b,d} = obj;
+console.log(d)
 // add a comment
 
 
